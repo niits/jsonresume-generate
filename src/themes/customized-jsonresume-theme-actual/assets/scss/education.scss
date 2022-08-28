@@ -1,0 +1,14 @@
+.education {
+
+  .title {
+    font-size: $education-area-font-size;
+  }
+
+  .institution {
+    font-size: $education-institution-font-size;
+    font-weight: lighter;
+    a{
+      text-decoration-color: lighten($text-color, 40%);
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{{#resume.basics}}
+
+	<section id="header">
+		<!--
+		<div class="avatar">
+			<img src="{{picture}}">
+		</div>
+		-->
+		<div class="meta">
+			<h1>{{name}}</h1>
+		</div>
+	</section>
+
+	<section id="basics">
+
+		<h2>👨‍💻 {{label}}</h2>
+
+		<div class="contact">
+		{{#location}}
+		<div class="location">
+			<p>
+				<i class="fa fa-map-pin"></i>
+				<strong>Location:</strong><br />
+				{{#if address}}{{address}}{{/if}},
+				{{#if region}}{{region}}{{/if}}
+			</p>
+		</div>
+		{{/location}}
+		{{#if website}}
+		<div class="website">
+			<a target="_blank" href="{{website}}">{{website}}</a>
+		</div>
+		{{/if}}
+		{{#if email}}
+		<div class="email">
+			<strong class="network">
+				E-Mail:
+			</strong>
+			<br/>
+			<a href="mailto:{{email}}">{{email}}</a>
+		</div>
+		{{/if}}
+		{{#if phone}}
+		<div class="phone">
+			<strong class="network">
+				Phone:
+			</strong>
+			<br />
+			<a href="tel:{{phone}}">{{phone}}</a>
+		</div>
+		{{/if}}
+		{{#if profiles.length}}
+			{{#each profiles}}
+			<div class="profile-item">
+				{{#if network}}
+				<strong class="network">
+					{{network}}
+				</strong>
+				{{/if}}
+				{{#if username}}
+				<div class="username">
+					{{#if url}}<a target="_blank" href="{{url}}">{{/if}}
+						{{username}}
+					{{#if url}}</a>{{/if}}
+				</div>
+				{{/if}}
+			</div>
+			{{/each}}
+		{{/if}}
+		</div>
+		{{#if summary}}
+		<div class="summary">
+			<p><i class="fa fa-info-circle"></i> <strong>About Me</strong></p>
+			<p>{{summary}}</p>
+		</div>
+		{{/if}}
+	</section>
+{{/resume.basics}}
+
+<script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = yyyy + '-' + mm + '-' + dd;
+var todaysDate = document.getElementById("today");
+	todaysDate.innerHTML = today;
+</script>

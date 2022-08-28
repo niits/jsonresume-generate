@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "address-format": "^0.0.3",
+    "country-code-lookup": "0.0.20",
+    "date-fns": "^2.28.0",
+    "ejs": "^3.1.8",
+    "gravatar": "1.8.2",
+    "handlebars": "^4.7.7",
+    "handlebars-wax": "^6.1.0",
+    "iso-3166-1": "^2.0.1",
+    "jsonresume-theme-even": "^0.17.0",
+    "jsonresume-themeutils": "^1.4.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-abbr": "1.0.4",
+    "micromark": "^3.0.10",
+    "moment": "2.29.4",
+    "mustache": "^4.2.0",
+    "node.normalize.scss": "^3.0.3",
+    "npm": "^8.18.0",
+    "pug": "3.0.2",
+    "resume-schema": "1.0.0",
+    "serve": "^14.0.1",
+    "sshpk": "1.17.0",
+    "swag": "^0.7.0",
+    "underscore": "1.13.4",
+    "yargs": "^17.5.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}

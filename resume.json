@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "Matthew J. Ogram",
+    "label": "Software Engineer",
+    "picture": "https://i.imgur.com/FSl4zjT.png",
+    "email": "email",
+    "phone": "phone",
+    "website": "https://github.com/emjayoh",
+    "summary": "Seasoned engineer with passion for emerging frontend technologies and modern approaches to the evolving challenges in the web application space",
+    "location": {
+      "address": "addr",
+      "postalCode": "xxxxx",
+      "city": "Atlantis",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "emjayoh",
+        "url": "https://linkedin.com/mattogram"
+      },
+      {
+        "network": "GitHub",
+        "username": "mattogram",
+        "url": "https://github.com/emjayoh"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "REPS & Co",
+      "position": "Software Awdrchitect",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-30",
+      "summary": "Managed a team of four developers - three frontend and one backend. Two of the developers were 100% remote while two were local/in-office. Responsible for high-level application architecture on the frontend and interfacing with APIs.",
+      "highlights": [
+        "Credit card management interface (Plaid)",
+        "Inventory autopricer",
+        "User management inteface",
+        "Heavy focus on minimizing technical debt",
+        "Overseeing many remote development resources"
+      ]
+    },
+    {
+      "company": "REPS & Co",
+      "position": "Senior Frontend Software Engineer",
+      "website": "https://repsandcompany.com",
+      "stateDate": "2018-04-20",
+      "endDate": "2019-08-31",
+      "summary": "Brought on as the only dedicated frontend resource. Company was very immature in the development department; I was tasked with creating an analytics dashboard for our analysts.",
+      "highlights": [
+        "Analytics admin interface",
+        "Inventory autopricer UI"
+      ]
+    }, {
+      "company": "REPS & Co",
+      "position": "Software Awdrchitect",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-30",
+      "summary": "Managed a team of four developers - three frontend and one backend. Two of the developers were 100% remote while two were local/in-office. Responsible for high-level application architecture on the frontend and interfacing with APIs.",
+      "highlights": [
+        "Credit card management interface (Plaid)",
+        "Inventory autopricer",
+        "User management inteface",
+        "Heavy focus on minimizing technical debt",
+        "Overseeing many remote development resources"
+      ]
+    }, {
+      "company": "REPS & Co",
+      "position": "Software Awdrchitect",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-30",
+      "summary": "Managed a team of four developers - three frontend and one backend. Two of the developers were 100% remote while two were local/in-office. Responsible for high-level application architecture on the frontend and interfacing with APIs.",
+      "highlights": [
+        "Credit card management interface (Plaid)",
+        "Inventory autopricer",
+        "User management inteface",
+        "Heavy focus on minimizing technical debt",
+        "Overseeing many remote development resources"
+      ]
+    },
+    {
+      "company": "Self-employed",
+      "position": "Owner / Lead Consultant/ Engineer",
+      "website": "https://repsandcompany.com",
+      "startDate": "2016-11-01",
+      "endDate": "2018-02-01",
+      "summary": "Various contracts and consulting gigs. From WordPress sites to large-scale web applications",
+      "highlights": [
+        "WeedMaps Delivery application -- ReactJS + MobX and Elixir/GraphQL backend",
+        "Patalytics -- ReactJS + Redux patent search engine connecting to multiple patent APIs",
+        "Various solo and open-source projects to enhance skillset in my future in frontend development (primary focus on ReactJS)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Santa Barbara",
+      "area": "Computer Science (Focus: Network Computing)",
+      "studyType": "Bachelor of Science",
+      "startDate": "2002-06-01",
+      "endDate": "2007-06-01",
+      "gpa": "",
+      "courses": [
+        "CS176(A-C) - Advanced Topics in Internet Computing",
+        "CSXXX - TODO: Security",
+        "CSXXX - TODO: Networking",
+        "CSXXX - TODO: AI",
+        "CSXXX - Operating Systems"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend engineer",
+      "level": "Proficient",
+      "keywords": [
+        "Ruby on Rails",
+        "PHP",
+        "Java",
+        "MySQL",
+        "DB abstraction",
+        "OOD",
+        "MVC",
+        "Relational database principles",
+        "Performance/Scalability",
+        "Devops (AWS, CI/CD)",
+        "GUI-less linux server administration",
+        "CentOS/RedHat/Ubuntu/Debian/AmazonLinux"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Moderate"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+prepare:
+  - path: "@semantic-release/git"
+    assets:
+      - package.json
+    message: "RELEASE: ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"

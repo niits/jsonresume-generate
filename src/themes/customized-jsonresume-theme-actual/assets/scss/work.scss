@@ -1,0 +1,48 @@
+.work {
+
+  .header {
+
+    .table {
+      padding: 0;
+
+      .left {
+        display: table-cell;
+
+        .position {
+          font-size: $work-position-font-size;
+          font-weight: bold;
+          display: block;
+        }
+
+        .company-location {
+          font-size: $work-company-location-font-size;
+          font-weight: lighter;
+          display: block;
+          a{
+            text-decoration-color: lighten($text-color, 40%);
+          }
+        }
+      }
+
+      .right {
+        text-align: right;
+        display: table-cell;
+
+        .dates {
+          font-size: $work-dates-font-size;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+
+  .summary {
+    font-size: $default-font-size;
+    padding: 0;
+    margin-top: $default-font-size/$line-height-2;
+
+    &:empty {
+      display: none
+    }
+  }
+}

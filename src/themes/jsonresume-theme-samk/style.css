@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+
+body {
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+#resume {
+	margin: 0 auto;
+	width: 768px;
+}
+
+#header {
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+#header h1,
+.avatar {
+	display: inline-block;
+}
+
+.avatar img {
+	width: 74px;
+	height: 74px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0 0 0.2rem;
+}
+
+h1 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	font-family: "Press Start 2P", sans-serif;
+}
+
+h2 {
+	font-size: 1.3rem;
+	padding-bottom: 4px;
+	margin-bottom: 0.75rem;
+	border-bottom: 1px dashed #dedede !important;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+h4 {
+	font-size: 0.8rem;
+}
+
+a {
+	color: #3984b8;
+}
+
+code {
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 3px 5px;
+	background-image: linear-gradient(45deg, #333 0%, #777 100%);
+}
+
+section {
+	margin: 0.4rem 0;
+}
+
+/* #header .avatar img {
+	border-radius: 100%;
+	max-width: 100px;
+	margin-right: 1rem;
+	margin-top: 0.85rem;
+} */
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+ul {
+	margin-bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.city,
+.countryCode,
+.region,
+.email,
+.phone,
+.website,
+.profile-item {
+	display: inline-block;
+}
+
+.contact,
+.location {
+	justify-content: space-between;
+	margin-bottom: 0.4rem;
+}
+
+#profiles {
+	display: flex;
+}
+
+#skills ul {
+	margin: 0 0 0.4rem;
+}
+
+#skills li {
+	display: inline-block;
+	color: white;
+	font-size: 0.6rem;
+}
+
+#skills .item {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+}
+
+#skills .item:nth-of-type(1),
+#skills .item:nth-of-type(3),
+#skills .item:nth-of-type(5) {
+	width: 48%;
+}
+
+#skills .item:nth-of-type(2),
+#skills .item:nth-of-type(4),
+#skills .item:nth-of-type(6) {
+	text-align: right;
+	width: 48%;
+}
+
+#skills .item:nth-of-type(5),
+#skills .item:nth-of-type(6) {
+	margin-bottom: 0.8rem;
+}
+
+#work .item {
+	margin: 0 0 1.6rem;
+}
+
+#work .item ul {
+	margin: 0.5rem 0 0 1rem;
+}
+
+#work .item ul li {
+	margin-bottom: 0.25rem;
+}
+
+.date {
+	color: #444;
+}
+
+#profiles .item,
+.email,
+.phone {
+	padding-right: 2rem;
+}
+
+#education .item,
+#awards .item {
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 0.5rem;
+}
+
+.page-break {
+	page-break-inside: avoid;
+}

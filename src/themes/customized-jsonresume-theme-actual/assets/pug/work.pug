@@ -1,0 +1,17 @@
+if helper.validArray(resume.work)
+    div(class='work margin-container-4')
+        p(class='section-title no-alone-2')=resume.titles.education
+        div(class='container')
+            each work in resume.work
+                div(class='article margin-container-3')
+                    div(class='header no-alone-1')
+                        div(class='table')
+                            div(class='left')
+                                span(class='position')=`${work.position} - ${work.company}`          
+                            div(class='right')
+                                span(class='dates')=`${work.startDate} - ${work.endDate}`
+                    div(class='summary markdown')!=helper.mdToHtml(work.summary)
+                    if helper.validArray(work.highlights)
+                        ul(class='highlights no-break')
+                            each highlight in work.highlights
+                                li=highlight

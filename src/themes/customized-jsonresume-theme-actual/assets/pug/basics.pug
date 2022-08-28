@@ -1,0 +1,19 @@
+div(class='basics')
+    div(class='table')
+        div(class='main')
+            span(class='name')=resume.basics.name
+            span(class='label')=resume.basics.label
+            span(class='summary markdown')!=helper.mdToHtml(resume.basics.summary)
+        div(class='side')
+            ul(class='contact')
+                li=resume.basics.phone
+                li=resume.basics.email
+                li(class='article margin-text-2')
+                    //- a(href=resume.basics.website)!=helper.beautifyLink(resume.basics.website)
+                //- li(class='margin-text-3')=helper.calcLocation(resume.basics.location)
+                if resume.basics.url
+                    li(class='article')
+                        a(href=resume.basics.url)!=helper.beautifyLink(resume.basics.url)
+                each profile in resume.basics.profiles
+                    li(class='article margin-text-2')
+                        a(href=profile.url)!=helper.beautifyLink(profile.url)

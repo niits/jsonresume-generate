@@ -1,0 +1,10 @@
+if helper.validArray(resume.education)
+    div(class='education margin-container-4')
+        p(class='section-title no-alone-1')=resume.titles.education
+        div(class='container')
+            each edu in resume.education
+                div(class='article margin-container-2 no-break')
+                    span(class='institution margin-text-1')
+                        span(class='title markdown')=`${edu.startDate} - ${edu.endDate}`
+                        b=edu.institution
+                        div(class='title markdown')!=helper.mdToHtml(helper.beautifyArray(': ', [edu.area, edu.courses[0]]))

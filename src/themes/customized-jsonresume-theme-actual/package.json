@@ -1,0 +1,48 @@
+{
+  "name": "@anthonyjdella/jsonresume-theme-anthonyjdella-actual",
+  "main": "index.js",
+  "files": [
+    "/assets",
+    "index.js"
+  ],
+  "version": "1.0.6",
+  "description": "Actual theme for JSON Resume",
+  "author": "Anthony Dellavecchia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonyjdella/customized-jsonresume-theme-actual"
+  },
+  "scripts": {
+    "create-html": "resume export public/resume.html --format html --theme .",
+    "create-pdf": "resume export public/resume.pdf --format pdf --theme .",
+    "create-docs": "resume export docs/resume_extended.pdf --resume public/resume_extended.json --format pdf --theme . && resume export docs/resume_simple.pdf --resume public/resume_simple.json --format pdf --theme .",
+    "validate": "resume test",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "gulp": "gulp",
+    "gulp:css": "gulp css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "iso-3166-1": "^2.0.1",
+    "markdown-it": "^12.0.4",
+    "moment": "^2.29.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.0",
+    "browser-sync": "^2.26.14",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0",
+    "html-validate": "^4.3.0",
+    "jest": "^27.2.5",
+    "resume-cli": "^3.0.0",
+    "semantic-release": "^18.0.0"
+  }
+}

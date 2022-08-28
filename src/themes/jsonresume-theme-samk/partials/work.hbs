@@ -1,0 +1,62 @@
+{{#if resume.work.length}}
+<section id="work">
+	<h2>💼 {{resume.titles.work}}</h2>
+
+	{{#each resume.work}}
+	<div class="item page-break">
+		{{#if company}}
+		<h4 class="name">
+			{{company}}
+		</h4>
+		{{/if}}
+
+		{{#if position}}
+		<div class="position">
+			<i class="fa fa-id-card"></i> <strong>{{position}}</strong>
+		</div>
+		{{/if}}
+
+		<div class="date">
+			{{#if startDate}}
+			<i class="fa fa-calendar"></i>
+			<span class="startDate">
+				{{startDate}}
+			</span>
+			{{/if}}
+			{{#if endDate}}
+			<span class="endDate">
+				- {{endDate}}
+			</span>
+			{{else}}
+			<span class="endDate">
+				- Present
+			</span>
+			{{/if}}
+		</div>
+
+		{{#if website}}
+		<div class="website">
+			<i class="fa fa-desktop"></i> {{website}}
+		</div>
+		{{/if}}
+
+		{{#if summary}}
+		<div class="summary">
+			<p><i class="fa fa-info-circle"></i> <em>{{summary}}</em></p>
+		</div>
+		{{/if}}
+
+		{{#if highlights.length}}
+		<ul class="highlights">
+			{{#each highlights}}
+			<li>{{.}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
+
+		<aside class="separator"></aside>
+
+	</div>
+	{{/each}}
+</section>
+{{/if}}
